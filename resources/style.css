@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.banner{
+    max-width: 100%;
+    border-radius: 16px;
+    padding: 30px;
+    flex-shrink: 0;
+
+}
+.bannerText{
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 80px;
+}
+second{
+    padding-top: 30px;
+    margin: 20px;
+}
+.secondText{
+    font-size: 30px;
+}
+.secondText>p{
+    color: red;
+}
+.secondText>h1{
+    color: red;
+}
+secondImage{
+    padding: 30px;
+}
+third{
+    padding: 30px;;
+}
+thirdImage{
+    padding: 30px;
+    border: 20px;
+}
