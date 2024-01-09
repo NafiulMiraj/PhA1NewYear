@@ -169,3 +169,12 @@ margin-bottom: 100px;
     border-radius: 5px; 
   }
 
+.last{
+    position: relative;
+    background-color: black;
+    color: white;
+
+}
+.footerText{
+    
+}
