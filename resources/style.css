@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: white;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -169,12 +169,40 @@ margin-bottom: 100px;
     border-radius: 5px; 
   }
 
+  .subscribe{
+    position: relative;
+    width: 1320px;
+height: 616px;
+margin: auto;
+display: block;
+border-radius: 16px;
+margin-bottom: 100px;
+background-color: rgba(255, 0, 0, 0.05);
+justify-content: center;
+  }
+  .subscribe-text{
+    margin:30px;
+  }
+  .subscribeBox{
+    left:25%;
+    position: relative;
+    width: 648px;
+height: 72px;
+display: block;
+border-radius: 50px;
+background-color: white;
+text-align: center;
+justify-content: center;
+
+  }
+  .subLeft{
+    left: 30%;
+  }
+
+
 .last{
     position: relative;
     background-color: black;
     color: white;
 
-}
-.footerText{
-    
 }
