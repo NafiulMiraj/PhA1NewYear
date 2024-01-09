@@ -1,46 +1,98 @@
-body{
+body {
     background-color: bisque;
     text-align: center;
     margin: 0;
     padding: 0;
     justify-content: center;
 }
-.banner{
-    max-width: 100%;
-    border-radius: 16px;
-    padding: 30px;
+
+.banner {
+    width: 1320px;
+    height: 600px;
     flex-shrink: 0;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+        url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    display: block;
 
 }
-.bannerText{
-    position: absolute;
-    top: 7%;
-    left: 40%;
+
+.bannerText {
+    position: relative;
+    top: 15%;
+    left: 2%;
+    text-align: center;
     color: white;
     font-size: 50px;
     font-style: normal;
     line-height: 80px;
+    justify-content: center;
 }
-second{
+
+.second {
     padding-top: 30px;
     margin: 20px;
 }
-.secondText{
+
+.secondText {
     font-size: 30px;
 }
-.secondText>p{
+
+.secondText>p {
     color: red;
 }
-.secondText>h1{
+
+.secondText>h1 {
     color: red;
 }
-secondImage{
-    padding: 30px;
+
+
+.third {
+    justify-content: center;
+    width: 1320px;
+height: 600px;
+    background-image: linear-gradient(to right, #070211 10%, rgba(7, 2, 17, 0) 100%),
+        url(../resources/Vectorrr.png);   
+            text-align: center;
+            margin: auto;
+            display: block;
+            border-radius: 16px;
+            display: flex;
 }
-third{
-    padding: 30px;;
+.thirdText {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+    left: 10%;
+    color: white;
+    font-style: normal;
+  
 }
-thirdImage{
-    padding: 30px;
-    border: 20px;
+.thirdText>h2{
+    font-size: 90px;
+}
+.thirdText>p{
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+}
+.thirdText>h3{
+    font-size: 25px;
+    font-family: Inter;
+    left: 15%;
+}
+.thirdImage{
+    flex: 1;
+    position: relative;
+    left:0%;
+    top: 10%;
+
 }
