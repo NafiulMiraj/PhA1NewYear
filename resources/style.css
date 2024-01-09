@@ -107,6 +107,7 @@ body {
 }
 
 .fourth {
+    position: relative;
     margin: auto;
    
     width: 1320px;
@@ -158,9 +159,9 @@ margin-bottom: 100px;
 }
 .rectangle-row{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns */
-    grid-gap: 10px; /* Adjust the gap between images */
-    max-width: 100%; /* Adjust the maximum width as needed */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+    max-width: 100%; 
     margin: 0 auto;
 }
 .rectangle img {
