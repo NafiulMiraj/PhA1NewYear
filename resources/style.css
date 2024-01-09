@@ -18,6 +18,7 @@ body {
     background-size: cover;
     margin: auto;
     display: block;
+    
 
 }
 
@@ -36,6 +37,7 @@ body {
 .second {
     padding-top: 30px;
     margin: 20px;
+    margin-bottom: 100px;
 }
 
 .secondText {
@@ -54,15 +56,17 @@ body {
 .third {
     justify-content: center;
     width: 1320px;
-height: 600px;
+    height: 600px;
     background-image: linear-gradient(to right, #070211 10%, rgba(7, 2, 17, 0) 100%),
-        url(../resources/Vectorrr.png);   
-            text-align: center;
-            margin: auto;
-            display: block;
-            border-radius: 16px;
-            display: flex;
+        url(../resources/Vectorrr.png);
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 100px;
 }
+
 .thirdText {
     flex: 1;
     padding: 20px;
@@ -71,28 +75,96 @@ height: 600px;
     left: 10%;
     color: white;
     font-style: normal;
-  
+
 }
-.thirdText>h2{
+
+.thirdText>h2 {
     font-size: 90px;
 }
-.thirdText>p{
+
+.thirdText>p {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.80);
 
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
 }
-.thirdText>h3{
+
+.thirdText>h3 {
     font-size: 25px;
     font-family: Inter;
     left: 15%;
 }
-.thirdImage{
+
+.thirdImage {
     flex: 1;
     position: relative;
-    left:0%;
+    left: 0%;
     top: 10%;
 
+
 }
+
+.fourth {
+    margin: auto;
+   
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(to bottom, rgba(255,0,0,.10), white);
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+.fourthText{
+    padding: 20px;
+    position: relative;
+  
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.fourthColor{
+    color: #F00;
+
+}
+.fourthNormal{
+    color: #070211;
+   
+}
+.fourthButton{
+    top: 80%;
+    padding: 30px;
+    background-color: red; 
+      color: white; 
+      padding: 10px 20px; 
+      border: none; 
+      border-radius: 5px;
+}
+.imageBox{
+    position: relative;
+    flex-shrink: 0;
+    width: 1320px;
+background: white;
+margin:0 auto;
+margin-bottom: 100px;
+}
+.imageBoxText{
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.rectangle-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 10px; /* Adjust the gap between images */
+    max-width: 100%; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+.rectangle img {
+    width: 100%; 
+    border-radius: 5px; 
+  }
+
